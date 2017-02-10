@@ -36,17 +36,4 @@ void draw() {
   float a = atan2(goalX-centerX, goalY-centerY);
   centerX += speed*sin(a);
   centerY += speed*cos(a);
-  
-  //if(centerX < 0){
-  //  centerX += random(0,1);
-  //} else if (centerX > width){
-  //  centerX += random(-1,0);
-  //} else if(centerY<0){
-  //  centerY += random(0,1);
-  //} else if(centerY>height){
-  //  centerY += random(-1,0);
-  //} else {
-  //  centerX += random(-2,3);
-  //  centerY += random(-2,3);
-  //}
 }
